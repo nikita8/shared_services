@@ -9,10 +9,7 @@ For MAC,
 Download `Docker for Mac`
 
 ## Usage
-
-1. Make .sh files executable.
-    ` chmod +x <file> `
-2. Run `make build`
+Run `make build`
 
 To run all the services:
   
