@@ -9,6 +9,8 @@ For MAC,
 Download `Docker for Mac`
 
 ## Usage
+Clone repo
+
 Run `make build`
 
 To run all the services:
