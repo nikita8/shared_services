@@ -19,7 +19,7 @@ services:
     ports: 
       - "5432:5432"
     environment:
-      - POSTGRES_USER=nikitaacharya
+      - POSTGRES_USER=postgres
   # mysql:
   #   image: mysql:latest
   #   command: --default-authentication-plugin=mysql_native_password
