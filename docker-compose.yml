@@ -20,15 +20,17 @@ services:
       - "5432:5432"
     environment:
       - POSTGRES_USER=postgres
-  # mysql:
-  #   image: mysql:latest
-  #   command: --default-authentication-plugin=mysql_native_password
-  #   volumes: 
-  #     - ~/.docker/mysql:/var/lib/mysql
-  #   ports: 
-  #     - "3306:3306"
-  #   environment:
-  #     - MYSQL_ROOT_PASSWORD:my-secret-pw
+  mysql:
+    image: mysql:latest
+    command: --default-authentication-plugin=mysql_native_password
+    restart: always
+    volumes:
+      - ~/.docker/mysql:/var/lib/mysql
+    ports:
+      - "3306:3306"
+    environment:
+      # - MYSQL_ROOT_PASSWORD:my-secret-pw
+      - MYSQL_ALLOW_EMPTY_PASSWORD=yes
   memcached:
     image: memcached:1.5.10
     ports:
