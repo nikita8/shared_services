@@ -6,7 +6,7 @@ DB(MySql, Postgres, Redis, Memcached, Mongo) and RabbitMq server setups for loca
 
 For MAC, 
 
-Download `Docker for Mac`
+Download and install [Docker for Mac](https://docs.docker.com/docker-for-mac/install/)
 
 ## Usage
 Clone repo
