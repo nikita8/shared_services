@@ -25,5 +25,12 @@ To bring specific services up:
 
   Available services are `redis, mongo, postgres, memcached, rabbitmq, mysql`
 
+For help:
+  Run `make`
+
+  OR
+
+  Run `make help`
+
 
 
