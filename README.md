@@ -1,6 +1,7 @@
-# Services
+# Start databases and RabbitMQ servers using docker-compose
 
 DB(MySql, Postgres, Redis, Memcached, Mongo) and RabbitMq server setups for local machine using `docker compose` and `make` command.
+
 
 ## Installation
 
@@ -31,6 +32,8 @@ For help:
   OR
 
   Run `make help`
+  
+
 
 
 
